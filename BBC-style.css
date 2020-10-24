@@ -1,0 +1,191 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: -0.01em;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 14px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+/* Top Nav Bar */
+
+.top-nav {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav > div {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border-left: 1px #CFCFCF solid;
+    font-size: 13px;
+}
+
+.top-nav > div a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#logo {
+    height: 24px;
+    margin: 0;
+    padding: 8px 15px 8px 15px;
+}
+
+#signin-image {
+    float: left;
+    height: 38px;
+    padding: 0 8px 0 15px;
+    position: relative;
+    top: -14px;
+}
+
+#signin-div {
+    padding-top: 14px;
+    padding-right: 88px;
+    height: 26px;
+}
+
+#bell-image {
+    height: 20px;
+    padding: 10px 14px;
+}
+
+.text-only {
+    float: left;
+    height: 40px;
+    padding: 14px 20.5px;
+}
+
+#more-arrow {
+    height: 5px;
+    padding-left: 55px;
+    position: relative;
+    top: -3px;
+}
+
+#search-box {
+    float: left;
+    border: none;
+    font-weight: bold;
+    background-color: #E4E4E4;
+    height: 24px;
+    width: 172px;
+    margin: 8px 0 8px 18px;
+    padding: 0 0 0 5px;
+}
+
+#mag-glass {
+    float: left;
+    height: 24px;
+    position: relative;
+    top: 8px;
+    left: -20px;
+}
+
+/* News Menu Bar */
+
+#news-menu-bar {
+    clear: both;
+    background-color: #BB1919;
+    height: 72px;
+    margin: 0;
+    padding: 10px 2px;
+}
+
+.news {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0.04em;
+    margin: 0;
+    padding: 0 13px;
+}
+
+.news-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-nav li {
+    float: left;
+}
+
+.news-nav li a {
+    display: block;
+    padding: 0 13px;
+    margin: 11px 0 9px 0;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 0.4px #CFCFCF solid;
+}
+
+#more-item {
+    border: none;
+}
+
+#white-arrow {
+    height: 5px;
+    position: relative;
+    top: -3px;
+    left: 3px;
+}
+
+/* Rest of content */
+
+.tech-title {
+    clear: both;
+    width: 100px;
+    margin: 10px 10px 40px 15px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    border-bottom: 3px #BB1919 solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 15px;
+    grid-gap: 0 15px;
+}
+
+.main-article {
+    grid-area: 1 / 1 / 3 / 2;
+    
+}
+
+.clock-image {
+    height: 14px;
+    margin-right: 5px;
+}
+
+.time {
+    padding-right: 5px;
+    vertical-align: top;
+}
+
+.category {
+    padding-left: 5px;
+    border-left: 1px #CFCFCF solid;
+    vertical-align: top;
+}
