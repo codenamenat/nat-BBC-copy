@@ -189,3 +189,106 @@ p {
     border-left: 1px #CFCFCF solid;
     vertical-align: top;
 }
+
+@media (max-width: 1300px) {
+    .top-nav > div:nth-of-type(10) {
+        display: none; /* CBBC link */
+    }
+}
+
+@media (max-width: 1220px) {
+    .top-nav > div:nth-of-type(9) {
+        display: none; /* Sounds link */
+    }
+}
+
+@media (max-width: 1125px) {
+    .top-nav > div:nth-of-type(8) {
+        display: none;  /* iPlayer link */
+    }
+}
+
+@media (max-width: 1040px) {
+    .top-nav > div:nth-of-type(7) {
+        display: none; /* Weather link */
+    }
+}
+
+@media (max-width: 1000px) {
+    #signin-text {
+        display: none;
+    }
+
+    #signin-div {
+        padding-right: 8px;
+    }
+
+    .top-nav > div:nth-of-type(7) {
+        display: block;
+    }
+}
+
+@media (max-width: 915px) {
+    .text-only {
+        padding: 14px 10px;
+    }
+    
+    .top-nav > div:nth-of-type(8) {
+        display: block;
+    }
+}
+
+@media (max-width: 870px) {
+    .top-nav > div:nth-of-type(8) {
+        display: none;
+    }  
+}
+
+@media (max-width: 806px) {
+    .top-nav > div:nth-of-type(7) {
+        display: none;
+    }  
+}
+
+@media (max-width: 735px) {
+    .top-nav > div:nth-of-type(6) {
+        display: none;
+    }  
+}
+
+@media (max-width: 682px) {
+    #search-box {
+        display: none;
+    }
+
+    #mag-glass {
+        position: static;
+        padding: 10px 10px;
+    }
+    
+    .top-nav > div:nth-of-type(6) {
+        display: block;
+    }  
+
+    .top-nav > div:nth-of-type(7) {
+        display: block;
+    }  
+}
+
+@media (max-width: 635px) {
+    .top-nav > div:nth-of-type(7) {
+        display: none;
+    }  
+}
+
+@media (max-width: 565px) {
+    .top-nav > div:nth-of-type(6) {
+        display: none;
+    }  
+}
+
+@media (max-width: 505px) {
+    #more-arrow {
+        padding-left: 45px;
+    }  
+}
